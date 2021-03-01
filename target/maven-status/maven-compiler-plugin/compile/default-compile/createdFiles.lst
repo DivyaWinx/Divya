@@ -1,0 +1,4 @@
+resources\Base.class
+mavenAcademy\App.class
+pageObject\LandingPage.class
+pageObject\LoginPage.class

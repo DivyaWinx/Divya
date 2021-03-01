@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38193" started-at="2021-02-28T15:10:00 IST" finished-at="2021-02-28T15:10:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23026" started-at="2021-02-28T15:10:00 IST" finished-at="2021-02-28T15:10:23 IST">
+      <class name="mavenAcademy.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mavenAcademy.validateTitle@b927fb]" name="initialize" is-config="true" duration-ms="19978" started-at="2021-02-28T15:10:00 IST" finished-at="2021-02-28T15:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:mavenAcademy.validateTitle@b927fb]" name="basePageNavigation" duration-ms="315" started-at="2021-02-28T15:10:20 IST" finished-at="2021-02-28T15:10:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="AfterTest1()[pri:0, instance:mavenAcademy.validateTitle@b927fb]" name="AfterTest1" is-config="true" duration-ms="2711" started-at="2021-02-28T15:10:20 IST" finished-at="2021-02-28T15:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest1 -->
+      </class> <!-- mavenAcademy.validateTitle -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="38187" started-at="2021-02-28T15:10:00 IST" finished-at="2021-02-28T15:10:38 IST">
+      <class name="mavenAcademy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:mavenAcademy.HomePage@902638]" name="initialize" is-config="true" duration-ms="10938" started-at="2021-02-28T15:10:00 IST" finished-at="2021-02-28T15:10:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mavenAcademy.HomePage@902638]" name="basePageNavigation" duration-ms="14720" started-at="2021-02-28T15:10:11 IST" data-provider="getData" finished-at="2021-02-28T15:10:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divya@.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mavenAcademy.HomePage@902638]" name="basePageNavigation" duration-ms="7892" started-at="2021-02-28T15:10:25 IST" data-provider="getData" finished-at="2021-02-28T15:10:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arora@.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unrestricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="AfterTest1()[pri:0, instance:mavenAcademy.HomePage@902638]" name="AfterTest1" is-config="true" duration-ms="4523" started-at="2021-02-28T15:10:33 IST" finished-at="2021-02-28T15:10:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest1 -->
+      </class> <!-- mavenAcademy.HomePage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
